@@ -3,21 +3,6 @@ using System.Text;
 
 namespace DotNetAPI.SandBox
 {
-    public interface IAppSettingService
-    {
-        AppSettings GetAppSettings();
-    }
-    public class AppSettingService : IAppSettingService
-    {
-        AppSettings _appSettings;
-        public AppSettingService(IOptionsMonitor<AppSettings>? options)
-        {
-            if(options == null) throw new ArgumentNullException(nameof(options));
-            _appSettings = options.CurrentValue;
-        }
-
-        public AppSettings GetAppSettings() => _appSettings;
-    }
 
     public class AppSettings
     {

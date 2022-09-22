@@ -81,20 +81,4 @@ namespace DotNetAPI.SandBox
             });
         }
     }
-
-    public class Initializer
-    {
-        private IOptionsMonitor<AppSettings> _options;
-        public Initializer(IOptionsMonitor<AppSettings>? options)
-        {
-            if(options == null) throw new ArgumentNullException(nameof(options));
-            _options = options;
-        }
-
-        public IOptionsMonitor<AppSettings> GetOptions()
-        {
-            return _options;
-        }
-    }
-
 }

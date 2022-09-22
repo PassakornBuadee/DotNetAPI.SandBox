@@ -31,13 +31,8 @@ namespace DotNetAPI.SandBox.Controllers
         [HttpGet(Name = "GetWeatherForecast")]
         public async Task<IActionResult> Get()
         {
-            //return Enumerable.Range(1, 5).Select(index => new WeatherForecast
-            //{
-            //    Date = DateTime.Now.AddDays(index),
-            //    TemperatureC = Random.Shared.Next(-20, 55),
-            //    Summary = Summaries[Random.Shared.Next(Summaries.Length)]
-            //})
-            //.ToArray();
+            //see if data change according to appsettings | connection string
+            //during debug /change property in appsettings.{env}.json
 
             //var settingResult = System.Text.Json.JsonSerializer.Serialize(_appSettings);
             //return Ok(settingResult);
