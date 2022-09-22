@@ -1,0 +1,32 @@
+﻿{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:54258",
+      "sslPort": 44381
+    }
+  },
+  "profiles": {
+    "DotNetAPI.SandBox": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:7247;http://localhost:5247",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "KMFPVD_ENCRYPT_API_LIST": "WyIvYXV0aGVudGljYXRpb24vbG9naW4td2l0aC1waW4tYmlvbWV0cmljIiwiL2F1dGhlbnRpY2F0aW9uL3ZhbGlkYXRlLWVtcGxveWVlIiwiL2F1dGhlbnRpY2F0aW9uL2dldC1lbXBsb3llci1ieS1rZXl3b3JkIiwiL2J1eWluZy9wdXJjaGFzaW5nLWZ1bmQtY29uZmlybSIsIi9idXlpbmcvcHVyY2hhc2luZy1uZXctZnVuZC1jb25maXJtIiwiL2J1eWluZy9nZXQtZGlyZWN0LWNyZWRpdC1zbGlwLWltYWdlIiwiL2RvcGEvY2hlY2tjYXJkYnlsYXNlciIsIi9mdW5kcy9nZXQtb3JkZXItaGlzdG9yeSIsIi9pbnZlc3Rlci9saXN0LWJhbmstYWNjb3VudHMiLCIvaW52ZXN0ZXIvbGlzdC1mY2lzLXVoLWFjY291bnRzIiwiL2ludmVzdGVyL2FkZC1iYW5rLWFjY291bnQtZGVmYXVsdCIsIi9hcGkva21mcHZkL2ttZi9hcGkvY29udGFjdHVzL3N1Ym1pdCIsIi9hcGkva21mcHZkL2ttZi9hcGkvYnV5aW5nL3B1cmNoYXNpbmdmdW5kcGxhbm91dCIsIi9hcGkva21mcHZkL2ttZi9wdXNoL2Z1bmRmYXZvcml0ZS9wb3N0IiwiL2FwaS9rbWZwdmQva21mL2FwaS9yZWRlZW0vc3VibWl0cGVuZGluZ3JlZGVlbSIsIi9hcGkva21mcHZkL2ttZi9hcGkvcmVkZWVtbHRmcm1mL3N1Ym1pdHBlbmRpbmdyZWRlZW0iLCIvYXBpL2ttZnB2ZC9rbWYvYXBpL3N3aXRjaGluZy9zdWJtaXRzd2l0Y2hpbmdmdW5kIiwiL2FwaS9rbWZwdmQva21mL2FwaS9zd2l0Y2hpbmcvc3VibWl0c3dpdGNoaW5nbmV3ZnVuZCIsIi9hcGkva21mcHZkL2ttZi9hcGkvYnV5aW5nL3B1cmNoYXNpbmdmdW5kIiwiL2FwaS9rbWZwdmQva21mL2FwaS9idXlpbmcvcHVyY2hhc2luZ25ld2Z1bmQiLCIvYXBpL2ttZnB2ZC9rbWYvYXBpL2ludmVzdG9yL2dldHJlZGVlbWZ1bmRsaXN0IiwiL2FwaS9rbWZwdmQva21mL2FwaS9vcmRlcndhaXRpbmcvZ2V0b3JkZXJ3YWl0aW5nbGlzdCIsIi9rbm93bGVkZ2Vhc3Nlc3NtZW50L2luc2VydC1jdXN0b21lci13ZWFsdGgiLCIva25vd2xlZGdlYXNzZXNzbWVudC9pbnNlcnQtY3VzdG9tZXItZm9ybSIsIi9rbm93bGVkZ2Vhc3Nlc3NtZW50L2dldC1rbm93bGVkZ2UtYXNzZXNzbWVudC1pbmZvIiwiL2tub3dsZWRnZWFzc2Vzc21lbnQvZ2V0LWN1c3RvbWVyLXdlYWx0aCIsIi9vdHAvcmVxdWVzdC1vdHAiLCIvcG9ydGZvbGlvL2dldC1wb3J0LWx0Zi1ybWYtc3NmLWRhdGEiLCIvcG9ydGZvbGlvL2dldC1sdGYtc3NmLWZ1bmQtZGV0YWlsIiwiL3BvcnRmb2xpby9nZXQtcm1mLWZ1bmQtZGV0YWlsIiwiL3BvcnRmb2xpby9nZXQtcHJpbmNpcGxlLWJlbmVmaXRzIiwiL3BvcnRmb2xpby9nZXQtcHZkLXBvcnQiLCIvcmVkZWVtL2NvbmZpcm1zYXZlIiwiL3JlZGVlbWx0ZnJtZi9jb25maXJtc2F2ZSIsIi9yZWdpc3RyYXRpb24vcmVnaXN0ZXItcHZkIiwiL3JlZ2lzdHJhdGlvbi92YWxpZGF0ZS1yZWdpc3Rlci1wdmQiLCIvcmVnaXN0cmF0aW9uL3NldC1waW4iLCIvcmVnaXN0cmF0aW9uL2dldC1hdXRvLWZpbGwtZGF0YSIsIi9yZWdpc3RyYXRpb24vdmFsaWRhdGUtY3VzdG9tZXItaW5mbyIsIi9yZWdpc3RyYXRpb24vZ2V0LXJlZ2lzdGVyLWttZi1zdGF0dXMiLCIvc2V0dGluZ3MvY29udGFjdHVzcHZkIiwiL3NldHRpbmdzL2NoYW5nZS1waW4iLCIvc3dpdGNoaW5nL2NvbmZpcm0tc2F2ZSIsIi9zd2l0Y2hpbmcvY29uZmlybS1zd2l0Y2hpbmctbmV3LWZ1bmQiLCIvdXNlci9nZXQtcHJvZmlsZS1ieS10b2tlbiIsIi91c2VyL2dldC1jb25zZW50IiwiL3VzZXIvYWNjZXB0LWNvbnNlbnQiLCIvdXNlci9hZGQtZnVuZC1hY2NvdW50LWRlZmF1bHQiLCIvdXNlci92ZXJpZnktcGluIl0="
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
